@@ -11,6 +11,9 @@ end
 
 # given an array of spicy foods, **return an array of strings**
 # with the names of each spicy food
+def get_names(spicy_foods)
+  spicy_foods.map {|food|food.name}
+end
 
 
 # given an array of spicy foods, **return an array of hashes** 
@@ -28,7 +31,7 @@ end
 
 # Given an array of spicy foods, **return an array of hashes** 
 # sorted by heat level from lowest to highest
-d
+
 
 # given an array of spicy foods, output to the terminal ONLY 
 # the spicy foods that have a heat level greater than 5, in the following format: 
